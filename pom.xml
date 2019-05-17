@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.acme</groupId>
-  <artifactId>application-configuration</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>quarkus-example</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <properties>
     <surefire-plugin.version>2.22.0</surefire-plugin.version>
     <quarkus.version>0.15.0</quarkus.version>
@@ -27,6 +27,10 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-resteasy-jsonb</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
